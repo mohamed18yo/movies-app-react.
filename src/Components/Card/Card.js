@@ -1,8 +1,8 @@
 import { CardContainer, CardImg } from "./Card.Styles";
 
-function Card({ id, img, name }) {
+function Card({to, id, img, name }) {
   return (
-    <CardContainer to={""}>
+    <CardContainer to={to}>
       <CardImg src={img} alt={name} />
     </CardContainer>
   );
